@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-commerce home page</title>
+</head>
+<style>
+    li {
+        display: inline;
+        padding: 50px;
+        margin: 0 20px;
+        font-size: 30px;
+    }
+
+    header {
+        background-color: black;
+        color: white;
+        height: 20vh;
+    }
+
+    .container {
+        height: 50vh;
+        width: 1334px;
+        display: flex;
+        justify-content: center;
+        justify-content: space-evenly;
+        position: relative;
+        background-color: blue
+    }
+
+    .container2 {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .box1 {
+        background-color: burlywood;
+        width: 80vh;
+        height: 80vh;
+    }
+
+    .box2 {
+        background-color: greenyellow;
+        width: 80vh;
+        height: 80vh;
+    }
+
+    .opinion {
+        background-color: chocolate;
+        color: white;
+        height: 10vh;
+        text-align: center;
+        font-size: 50px;
+    }
+
+    .buttonit {
+        position: relative;
+        width: 386px;
+        height: 150px;
+        display: flex;
+        /* align-items: center; */
+        left: 450px;
+        justify-content: center;
+
+    }
+
+    footer {
+        background-color: coral;
+        text-align: center;
+        height: 20vh;
+    }
+</style>
+
+<header>
+    <nav>
+        <ul>
+            <li> Home </li>
+            <li> Contact </li>
+            <li> <b> BUY NOW </b> </li>
+        </ul>
+    </nav>
+</header>
+
+<div class="container">
+    <img src="shoeimage.png" alt="This is the shoe ">
+    <img src="shoe2.jpg">
+</div>
+<button class="buttonit"> <b style="font-size: 50px;"> BUY NOW </b> </button>
+<div class="opinion">
+    Here are The features of the shoes
+</div>
+<div class="container2">
+    <div class="box1">
+        <h3 style="text-align: center; font-size: 30px;"> SHOE 1 </h3>
+
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor quas maxime cumque perspiciatis ducimus iusto rem
+        sequi fugiat voluptatum tempore amet odit voluptatibus excepturi reiciendis, sit doloremque voluptatem
+        repudiandae.
+        Eum.
+    </div>
+    <div class="box2">
+        <h3 style="text-align: center; font-size: 30px;"> SHOE 2</h3>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus voluptas, minus eius laboriosam laudantium
+        quis obcaecati, eum magnam expedita sequi ratione debitis laborum natus! Recusandae, molestiae odio?
+    </div>
+</div>
+<footer>
+    Copyright 2022 &copy; CryptGodShop All Rights reserved
+</footer>
+
+</html>
